@@ -1,0 +1,11 @@
+.open-details {
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 500px;
+    opacity: 1;
+}
+
+.close-details {
+    max-height: 0;
+    opacity: 0;
+}
